@@ -1,17 +1,28 @@
-# Project 1 - Statistical Analysis of Avocado Pricing Dataset for Predicting Average Price.
-Purpose and Business Impact of Analysis
-• Avocado – One of the most lucrative fruit!
-• The main purpose is to understand the pricing trends and factors affecting the average price of 
-organic and conventional avocados.
-• Understanding the impact of each variable on the pricing model can help businesses better 
-predict future pricing and analyze the demand that is generally associated with it.
-• Furthermore, businesses will be able to adapt to changes in the avocado sales environment if 
-they know what factors are significantly impactful to the demand model. 
-• Lastly, this process can help lead to higher profits and lower prices.
+# Statistical Analysis of Avocado Pricing Dataset for Predicting Average Price.(Presented on 11/23/2020)
 
-Data from - Hass Avocado Board (Focusing on US market only)
+# Executive Summary
+Over the last decade, avocados have drawn worldwide popularity and have become household gems. They
+have been widely adapted from their use as lotions to their extravagant nutritional value. Due to their
+increased adaptation, businesses have widely researched and modeled the avocado market data to further
+understand the influential factors that impact their pricing structure. In this report, we have analyzed
+market data sourced from the Hass Avocado Board to better understand the features that impact avocado
+pricing. We have tested for three hypotheses and modeled various predictive methods to explain what can
+be used to predict avocado pricing. The three hypotheses tested are:
+1. Avocado Pricing shows more relationship to season rather than region.
+2. Over time, across all regions, consumers become less price sensitive.
+3. There is a change in avocado prices during the seasonal California wildfires.
+The models that are used in this paper include linear regression, subset selection, regularized regression,
+and ensemble methods. We utilized the variety of modeling techniques to conclude that the random forest
+model ensemble method generates the best predictive performance which lists the type, avocado size, and
+bag sizes as the most influential variables in determining average price. Furthermore, our analysis has shown
+that there is evidence to support that the season of sales has more of a relationship with average price than
+region, pricing demand is inelastic over time, and the relationship of seasonal California wildfires and average
+price is significant.
 
-Hypothesis Analyzed 
+# Data Description - 
+Hass Avocado Board (Focusing on US market only)
+
+# Hypothesis Analyzed 
 1. Avocado Pricing shows more relationship to season rather than region.
 Method Used: Two – Way ANOVA analysis
 Conclusion: The comparison of the partial ETA squared values for season (0.045) and region (0.035) display that 
@@ -26,6 +37,8 @@ Method Used: Two-Way ANOVA
 Conclusion: Based on low p-value (0.009588 ) the relationship between the independent variables of year and fire 
 does seem to be significant with the dependent variable of average price.
 
-Tool used : R
+# Skills used -
+Programming Language - R 
+Data Science Skills - Preprocessing, Handling missing values, EDA, Hypothesis Testing, Linear Regression Model, Subset Selection Models, Elastic net, Ensemlbe methods
 
-This was a group project.
+**This was a group project.
